@@ -7,14 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Alejandro Piña<ale.casp24@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "commander": "^12.1.0",
     "word-list": "^4.0.0"
   },
   "bin": {
     "generate-word": "./cli.js"
-  }
-
+  },
+  "preferGlobal": true
 }

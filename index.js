@@ -30,4 +30,5 @@ async function generateUniqueWord(length = 6) {
     return word;
 }
 
-generateUniqueWord().then(console.log).catch(console.error);
+// Exporta la función
+module.exports = generateUniqueWord;
